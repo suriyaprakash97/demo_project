@@ -2,6 +2,7 @@
   "type": "Inline",
   "managed": true,
   "featureGroup": false,
+  "formatType": "json",
   "checklists": {
     "checklists": []
   },
@@ -23,6 +24,14 @@
       "rules": []
     }
   },
+  "formatParams": {
+    "maxExpansionDepth": -1,
+    "nestedArraysHandling": "FLATTEN",
+    "extractFromSingleElement": false,
+    "nestedArraysMaxElements": 100,
+    "nestedArraysMaxContentSize": 300000,
+    "headerRow": true
+  },
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
@@ -41,8 +50,7 @@
     "keepTrackOfChanges": false,
     "notReadyIfEmpty": false,
     "enableClipboardApi": false,
-    "importSourceType": "NONE",
-    "uploadBoxId": "48b5c1d47d42ee666f910ae2d94de0970aaf0cdec41e75b53add774ece2ee7ff"
+    "importSourceType": "NONE"
   },
   "schema": {
     "columns": [],
