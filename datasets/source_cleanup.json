@@ -62,7 +62,6 @@
   },
   "schema": {
     "columns": [
-      {"name":"datum","type":"string"},
       {"name":"M01AB","type":"string"},
       {"name":"M01AE","type":"string"},
       {"name":"N02BA","type":"string"},
