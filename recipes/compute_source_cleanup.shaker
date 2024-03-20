@@ -29,8 +29,26 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "datum"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +75,21 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "datum": 100,
+    "M01AE": 134,
+    "Weekday Name": 105,
+    "Hour": 100,
+    "N05B": 134,
+    "N02BA": 134,
+    "Month": 100,
+    "N02BE": 134,
+    "N05C": 134,
+    "R03": 134,
+    "Year": 100,
+    "R06": 134,
+    "M01AB": 134
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
