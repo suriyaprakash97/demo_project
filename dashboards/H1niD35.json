@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "id": "dzDh8xh",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false,
+      "enableCrossFilters": true
+    }
+  ],
+  "owner": "misogo2458@pgfweb.com",
+  "listed": true,
+  "name": "DEMO Project\u0027s default dashboard",
+  "showGrid": true,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "misogo2458@pgfweb.com"
+    },
+    "lastModifiedOn": 1710943801120,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
